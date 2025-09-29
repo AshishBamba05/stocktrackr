@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"/><title>StockTrackr Demo</title>
+<style>body{font-family:system-ui,sans-serif;margin:2rem}pre{background:#111;color:#0f0;padding:1rem;border-radius:8px;max-height:50vh;overflow:auto}</style>
+</head>
+<body>
+<h1>StockTrackr Realtime Demo</h1>
+<p>Subscribes to AAPL & MSFT and prints prices/alerts.</p>
+<pre id="log"></pre>
+<script>
+  const $log=document.getElementById('log');
+  const log=s=>{$log.textContent+=s+'\\n';$log.scrollTop=$log.scrollHeight;}
+  const ws=new WebSocket(`ws://${location.host}/ws`);
+  ws.onopen=()=>{ws.send(JSON.stringify({type:'subscribe',symbols:['AAPL','MSFT']}));log('WS connected; subscribed.')};
+  ws.onmessage=ev=>{
+    const m=JSON.parse(ev.data);
+    if(m.type==='price') log(`[PRICE] ${m.payload.symbol} ${m.payload.price}`);
+    if(m.type==='alert') log(`[ALERT] ${m.payload.symbol} ${m.payload.direction} ${m.payload.target} @ ${m.payload.price}`);
+  };
+</script>
+</body></html>
