@@ -21,7 +21,7 @@ Built for speed and reliability — sub-200 ms price streaming with Redis cachin
 - **Backend:** Node.js, Express, TypeScript, WebSockets 
 - **Database:** PostgreSQL  
 - **Caching:** Redis  
-- **Deployment:** (Add here if deployed — e.g., Render, Vercel, Heroku, etc.)
+- **Deployment:** 
 
 ---
 
@@ -41,8 +41,6 @@ Built for speed and reliability — sub-200 ms price streaming with Redis cachin
 ---
 
 ## 📸 Screenshots / Demo
-
-*(Add screenshots, GIFs, or a demo link here if available)*
 
 ---
 
