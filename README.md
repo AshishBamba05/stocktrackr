@@ -18,8 +18,7 @@ Built for speed and reliability — sub-200 ms price streaming with Redis cachin
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** TypeScript, React, WebSockets  
-- **Backend:** Node.js, Express  
+- **Backend:** Node.js, Express, TypeScript, WebSockets 
 - **Database:** PostgreSQL  
 - **Caching:** Redis  
 - **Deployment:** (Add here if deployed — e.g., Render, Vercel, Heroku, etc.)
