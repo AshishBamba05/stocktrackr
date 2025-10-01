@@ -33,3 +33,24 @@ Built for speed and reliability — sub-200 ms price streaming with Redis cachin
 ↓
 [ Redis Cache ]
 
+
+- Prices cached in Redis to reduce redundant API calls  
+- Alerts & portfolio updates pushed via WebSockets  
+- PostgreSQL stores persistent user data, trades, and watchlists  
+
+---
+
+## 📸 Screenshots / Demo
+
+*(Add screenshots, GIFs, or a demo link here if available)*
+
+---
+
+## 📦 Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AshishBamba05/stocktrackr.git
+   cd stocktrackr
+
+
