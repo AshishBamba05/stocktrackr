@@ -1,7 +1,9 @@
-# 📈 StockTrackr
+# 📈 StockTrackr ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 Real-time portfolio tracking platform with user authentication, watchlists, live P/L calculations, and instant WebSocket alerts.  
 Built for speed and reliability — sub-200 ms price streaming with Redis caching and polling.
+
+This project is licensed under the [MIT License](./LICENSE) © 2025 Ashish Bamba.
 
 ---
 
