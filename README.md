@@ -10,8 +10,8 @@ This project is licensed under the [MIT License](./LICENSE) © 2025 Ashish Bamba
 ## 🎯 Core Features
 
 - **Real-time price streaming** via WebSockets (sub-200 ms latency)
-- **Watchlists** for tracking multiple assets
 - **Live P/L calculations** with auto-updating portfolio values
+- **Watchlists** for tracking multiple assets
 - **Alert engine** for price thresholds and duplicate trigger prevention
 - **PostgreSQL persistence** with structured schema for users, assets, and trades
 
