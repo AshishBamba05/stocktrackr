@@ -7,7 +7,7 @@ This project is licensed under the [MIT License](./LICENSE) © 2025 Ashish Bamba
 
 ---
 
-## 🚀 Core Features
+## 🎯 Core Features
 
 - **Real-time price streaming** via WebSockets (sub-200 ms latency)
 - **User authentication** and secure session management
