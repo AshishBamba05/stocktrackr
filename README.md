@@ -21,7 +21,7 @@ This project is licensed under the [MIT License](./LICENSE) © 2025 Ashish Bamba
 
 | Layer        | Technology         |
 |--------------|--------------------|
-| **Backend**  | Node.js, Express, TypeScript, WebSockets |
+| **Backend**  | NodeJS, ExpressJS, TypeScript, WebSockets |
 | **Database:** | PostgreSQL  |
 | **Caching:** | Redis  |
 | **Deployment:** | |
