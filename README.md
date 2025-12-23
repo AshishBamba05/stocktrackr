@@ -32,6 +32,7 @@ with live P/L calculations, watchlists, and instant WebSocket alerts.**
 | **Database:** | PostgreSQL  |
 | **Caching:** | Redis  |
 | **Containerization** | Docker, Docker Compose |
+| **Frontend** | HTML5 |
 | **Deployment:** | |
 
 ---
