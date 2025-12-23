@@ -31,6 +31,7 @@ with live P/L calculations, watchlists, and instant WebSocket alerts.**
 | **Backend**  | NodeJS, ExpressJS, TypeScript, WebSockets |
 | **Database:** | PostgreSQL  |
 | **Caching:** | Redis  |
+| **Containerization** | Docker, Docker Compose |
 | **Deployment:** | |
 
 ---
