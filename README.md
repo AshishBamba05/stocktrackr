@@ -29,8 +29,8 @@ with live P/L calculations, watchlists, and instant WebSocket alerts.**
 | Layer        | Technology         |
 |--------------|--------------------|
 | **Backend**  | NodeJS, ExpressJS, TypeScript, WebSockets |
-| **Database:** | PostgreSQL  |
-| **Caching:** | Redis  |
+| **Database** | PostgreSQL  |
+| **Caching** | Redis  |
 | **Containerization** | Docker, Docker Compose |
 | **Frontend** | HTML5 |
 | **Deployment:** | |
